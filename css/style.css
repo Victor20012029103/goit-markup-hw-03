@@ -111,7 +111,7 @@ body {
 .contacts-list {
   display: flex;
   align-items: center;
-  gap: 73px;
+  gap: 50px;
 }
 /* .header-connect {
     margin: 0 auto; */
@@ -152,9 +152,8 @@ body {
 /* ----hero index---  */
 
 .hero {
-  width: 1600px;
   background-color: #2f303a;
-}
+  padding: 200px 0;}
 
 .hero-title {
   font-weight: 900;
@@ -191,7 +190,7 @@ body {
 /* -----Переваги------ */
 
 .advances {
-  padding: 94px 0;
+  
 }
 .advances-container {
 }
@@ -223,7 +222,7 @@ body {
 
 /* about */
 .about {
-  padding-bottom: 94px;
+  padding-top: 0;
 }
 
 .about-list {
@@ -313,7 +312,6 @@ body {
 }
 .portfolio-item {
   width: 370px;
-  height: 404px;
   border: 1px solid #eeeeee;
 }
 .portfolio-description {
@@ -325,8 +323,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 4px;
-  padding-top: 20px;
-  padding-left: 24px;
+  padding: 20px 24px;
 }
 .portfolio-list {
   display: flex;
@@ -352,7 +349,9 @@ body {
   display: block;
 }
 .adress-list {
-  display: block;
+display: flex;
+    flex-direction: column;
+    gap: 9px;
 }
 
 .adress {
@@ -367,9 +366,8 @@ body {
   /* margin-bottom: 9px; */
 }
 .container-contacts {
-  display: flex;
-  flex-direction: column;
-  gap: 9px;
+  
+
 }
 .contact-link:hover,
 .contacts:hover,
